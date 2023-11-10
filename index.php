@@ -6,8 +6,11 @@ include "Cat.php";
 // $car = new Car("BMW");
 // $car->make_noise( );
 
-$x = new Cat("Mincis");
-$y = new Cat("Brincis");
+$x = new Cat( );
+$x->name = "Mincis";
+
+$y = new Cat( );
+$y->name = "Brincis";
 
 Cat::meow( );
 
