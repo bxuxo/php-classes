@@ -7,7 +7,7 @@ class Cat {
     function birthday( ) {
         $this->age++;
     }
-
+ 
     static function meow( ) {
         echo "MEOW MEOOOOOOOOOOOOOOOW!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
     }
